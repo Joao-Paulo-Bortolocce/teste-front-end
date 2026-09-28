@@ -144,9 +144,3 @@ seletor de quantidade (01, mínimo 1) e botão amarelo COMPRAR. Abre ao clicar
 na foto ou no COMPRAR de qualquer card das 3 vitrines; fecha pelo X, pelo
 clique no overlay ou pelo `Esc`, com trava de scroll, foco gerenciado
 (`role="dialog"`, `aria-modal`) e retorno do foco ao elemento de origem.
-
-## Entrega (manual, pelo candidato)
-
-1. Revisar `git status`, commitar e dar push no fork
-2. Conferir repo público com README e build verde
-3. Enviar e-mail para `gustavo.cipriano@econverse.com.br`, assunto `Teste Vaga FrontEnd`, com o link do repositório
