@@ -1,0 +1,54 @@
+.newsletter {
+  background: #2b1a4e;
+  color: #fff;
+
+  &__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 24px;
+    align-items: center;
+
+    h2 {
+      font-size: 1.05rem;
+    }
+
+    p {
+      font-size: 0.75rem;
+      color: #d9d9e6;
+    }
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 10px;
+
+    input[type='text'],
+    input[type='email'] {
+      border: 0;
+      border-radius: 6px;
+      padding: 10px 12px;
+    }
+
+    button {
+      background: #f5c400;
+      border: 0;
+      border-radius: 6px;
+      padding: 10px 22px;
+      font-weight: 800;
+      font-size: 0.75rem;
+    }
+  }
+
+  &__terms {
+    grid-column: 1 / -1;
+    font-size: 0.72rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+}

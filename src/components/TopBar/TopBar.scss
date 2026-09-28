@@ -1,0 +1,25 @@
+.topbar {
+  background: #f2f2f2;
+  font-size: 0.72rem;
+  color: #777;
+
+  &__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6px 16px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    svg {
+      flex-shrink: 0;
+    }
+  }
+}

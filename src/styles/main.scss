@@ -1,0 +1,20 @@
+@use './reset';
+@use '../components/TopBar/TopBar';
+@use '../components/Header/Header';
+@use '../components/Hero/Hero';
+@use '../components/Categories/Categories';
+@use '../components/Showcase/Showcase';
+@use '../components/ProductCard/ProductCard';
+@use '../components/Partners/Partners';
+@use '../components/Brands/Brands';
+@use '../components/Newsletter/Newsletter';
+@use '../components/Footer/Footer';
+@use '../components/ProductModal/ProductModal';
+
+body {
+  background: #fff;
+}
+
+main {
+  background: #fff;
+}
